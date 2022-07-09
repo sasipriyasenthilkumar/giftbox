@@ -1,0 +1,23 @@
+div{
+    background-color:white;
+    height: 50px;
+    width: 50px;
+    border: black solid 1px;
+    display:flex;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(270deg, #126be6, #4bf026, #e6d812, #e64312);
+    background-size: 800% 800%;
+    margin-top: 100px;
+    animation: bgcolor 29s ease infinite;
+}
+
+@keyframes bgcolor{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
